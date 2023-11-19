@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+    .ulul a{
+    gap: 4px;
+    font-size: .80rem;
+    }  
+    .btbt{
+        display: none;
+    }   
+    .logo{
+        max-width: 100%;
+        width: 7vw;
+    }
+    .ball{
+        width: 60px;
+        margin-left: 170px;
+        margin-bottom: 50px; 
+    }
+    .tiger{
+    width: 300px;
+    }
+    .twobutton{
+        margin-top: 230px;
+        gap: 4px;
+        margin-left: 50px;
+        
+    
+    }
+    .twobutton a{
+        padding: 2px 7px;
+    }
+    .justp{
+        
+        max-width: 100%;
+        
+    }
+
+    .cardcard{
+        flex-wrap: wrap;
+    }
+    .ourteam{
+        margin-top: 100px;
+    }
+}
+/* start of gallery section*/
+
+.camera{
+    color: dodgerblue;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.gallery{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+    gap: 3px;
+    grid-auto-flow: dense;
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.horizontal{
+    grid-column: auto / span 2;
+}
+.vertical{
+grid-row: auto / span 2;
+}
+.big{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
